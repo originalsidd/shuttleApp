@@ -2,12 +2,13 @@
   "expo": {
     "name": "shuttle-app",
     "slug": "shuttle-app",
+    "description": "Shuttle App for VIT",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/shuttle.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/shuttle.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,6 +22,7 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": ["android.permission.BLUETOOTH", "android.permission.BLUETOOTH_ADMIN"],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
